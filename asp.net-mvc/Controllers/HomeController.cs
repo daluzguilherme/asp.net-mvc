@@ -9,14 +9,14 @@ namespace asp.net_mvc.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public string Index()
+        public ActionResult Index()
         {
-            return "Guilherme da Luz";
+            return View();
         }
-
-        public string Teste()
+        
+        public ActionResult Contatos()
         {
-            return "Teste";
+            return View();
         }
     }
 }
