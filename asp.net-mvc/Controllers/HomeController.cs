@@ -8,23 +8,15 @@ namespace asp.net_mvc.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        // GET: Home
+        public string Index()
         {
-            return View();
+            return "Guilherme da Luz";
         }
 
-        public ActionResult About()
+        public string Teste()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return "Teste";
         }
     }
 }
